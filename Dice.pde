@@ -10,7 +10,7 @@ class Die{
   }
   void roll(){
     num = (int)(Math.random()*6)+1;
-    System.out.println(num);
+    //System.out.println(num);
   }
   void show(){
     fill((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
